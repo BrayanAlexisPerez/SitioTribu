@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sitio Web De La Tribu</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="icon" type="image/png" href="https://cdn.icon-icons.com/icons2/1412/PNG/512/young-lion_97429.png" />
+	</head>
+	<body>
+		<div id="contenedor">
+			<header id="cabecera">
+				<div id="logo"><img id="log" src="img/presentacion/icono11.png"/></div>
+				<div id="logo"><img id="log" src="img/presentacion/icono1.png"/></div>					
+				<h1 id="titulo">SUGERENCIAS</h1>
+				<nav id="navegacion">
+					<ul id="Menu">
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="datosPersonales.html">Integrantes</a></li>
+						<li><a href="librosFavoritos.html">Libros favoritos</a></li>
+						<li><a href="videosFavoritos.html">Videos favoritos</a></li>
+						<li><a href="sugerencias.html">Sugerencias</a></li>
+					</ul>
+				</nav>
+			</header>
+			
+			<div id="contenido"><br />
+				<form  class="contact_form" action="#" id="contact_form" runat="server">
+						<div>
+							<ul>
+								<li id="tit_sugerencias">
+									<h2>Sugerencias</h2>
+									<span class="required_notification">* Datos requeridos</span>
+								</li>
+								<li>
+									<label for="name">Nombre:</label>
+									<input type="text" placeholder="Pepito perez" required />
+								</li>
+								<li>
+									<label for="email">Email:</label>
+									<input type="email" name="email" placeholder="info@unicauca.edu.co" required />
+									<span class="form_hint">Formato correcto: "name@something.com"</span>
+								</li>
+								<li>
+									<label for="sexo">Genero:</label>
+									
+									Femenino<input type="checkbox" id="cbox1" value="checked"/>
+									Masculino<input type="checkbox" id="cbox1" value=""/>								
+								</li>
+								<li>
+									<label for="pais">Pais</label>
+									<input type="text" placeholder="Colombia" required />
+								</li>
+								<li>
+									<label for="ciudad">Ciudad</label>
+									<input type="text" placeholder="Popayán" required />
+								</li>
+								<li>
+									<label for="message">Mensaje:</label>
+									<textarea name="message" cols="40" rows="6" required></textarea>
+								</li>
+								<li>
+									<button class="submit" type="submit">Enviar mensaje</button>
+								</li>
+							</ul>
+						</div>
+					</form>		
+					<img id="lion" src="img/presentacion/leon_sugerencias.png"/>
+				
+				
+			</div>
+			
+			<div id="pie">
+				<p>Creado por: Tribu - Leones Voraces | contacto: bperezr@unicauca.edu.co</p>
+			</div>
+			
+		</div>
+
+	</body>
+</html>

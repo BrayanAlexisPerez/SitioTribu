@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sitio Web De La Tribu</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/slide.css" />
+	<script src="js/slide.js"></script>
+	<link rel="icon" type="image/png" href="https://cdn.icon-icons.com/icons2/1412/PNG/512/young-lion_97429.png" />
+</head>
+
+<body onload="currentSlide(1)">
+	<div id="contenedor">
+		<header id="cabecera">
+			<div id="logo"><img id="log" src="img/presentacion/icono11.png" /></div>
+			<div id="logo"><img id="log" src="img/presentacion/icono1.png" /></div>
+			<h1 id="titulo">INTEGRANTES</h1>
+			<nav id="navegacion">
+				<ul id="Menu">
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="datosPersonales.html">Integrantes</a></li>
+					<li><a href="librosFavoritos.html">Libros favoritos</a></li>
+					<li><a href="videosFavoritos.html">Videos favoritos</a></li>
+					<li><a href="sugerencias.html">Sugerencias</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="contenido"><br />
+
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 5</div>
+					<img src="img2/brayan-removebg.png" style="width:15%">
+					<div class="text">
+						<p>Nombre: Brayan Alexis Perez</p>
+						<p>Edad: 22</p>
+						<p>Lugar de Nacimiento: Popayán-Cauca</p>
+					</div>
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 5</div>
+					<img src="img2/juanpa-removebg.png" style="width:15%">
+					<div class="text">
+						<p>Nombre: Juan Sebastian Parra Reyes</p>
+						<p>Edad: 23</p>
+						<p>Lugar de Nacimiento: Bogota-Cundinamarca</p>
+					</div>
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">3 / 5</div>
+					<img src="img2/bladimir.JPG" style="width:15%">
+					<div class="text">
+						<p>Nombre: Bladimir Astudillo Pérez</p>
+						<p>Edad: 24</p>
+						<p>Lugar de Nacimiento: Belalcazar-Cauca</p>
+
+					</div>
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">4 / 5</div>
+					<img src="img2/andy-removebg.png" style="width:15%">
+					<div class="text">
+						<p>Nombre: Andy Alexander Villaquira</p>
+						<p>Edad: 22</p>
+						<p>Lugar de Nacimiento: Santa Rosa-Cauca</p>
+					</div>
+				</div>
+
+				<div class="mySlides fade">
+					<div class="numbertext">5 / 5</div>
+					<img src="img2/yurani-removebg.png" style="width:15%">
+					<div class="text">
+						<p>Nombre: Yurani Guevara</p>
+						<p>Edad: 26</p>
+						<p>Lugar de Nacimiento: Popayán-Cauca</p>
+					</div>
+				</div>
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			</div>
+			<br>
+
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+				<span class="dot" onclick="currentSlide(5)"></span>
+			</div>
+
+
+
+
+			<!-- 
+			<div class="slideshow-container">
+				<div class="mySlides">
+					<img src="img2/brayan-removebg.png" width="200" height="250" alt="harry potter">
+					<div class="info-libro">
+						<h2>Titulo: Harry Potter</h2>
+						<h3>Descripción: "Harry Potter vive con su tía, su tío y su primo porque sus
+							padres murieron en un accidente de coche, o al menos eso es lo que le han dicho.
+							A los Dursley no les gusta que Harry les haga preguntas; de hecho, parece que no les
+							gusta nada de él.
+						</h3>
+						<h4>Link: <a href="https://amzn.to/2VUZngf">Harry Potter Collection</a></h4>
+					</div>
+				</div>
+				<div class="mySlides">
+					<img src="img2/juanpa-removebg.png" width="200" height="250" alt="Caballo de Troya">
+					<div class="info-libro">
+						<h2>Titulo: Caballo de Troya</h2>
+						<h3>Descripción: En 1973 las Fuerzas Aéreas norteamericanas, después de varios años
+							de preparación y tras un sinfín de peripecias, ejecutaron en pleno corazón de
+							Israel uno de sus proyectos «supersecretos» que fue bautizado, precisamente,
+							como Operación Caballo de Troya</h3>
+						<h4>Link: <a href="https://amzn.to/2LxE54d">Caballo de Troya</a></h4>
+					</div>
+				</div>
+				<div class="mySlides">
+					<img src="img2/bladimir.JPG" width="200" height="250" alt="Tokyo Ghoul">
+					<div class="info-libro">
+						<h2>Titulo: Tokyo Ghoul</h2>
+						<h3>Descripción: Strange murders are happening in Tokyo.
+							Due to liquid evidence at the scene, the police conclude the attacks are
+							the results of 'eater' type ghouls. College buddies Kaneki and Hide come
+							up with the idea that ghouls are imitating humans so that's why they haven't
+							ever seen one.</h3>
+						<h4>Link: <a href="https://amzn.to/2vURvwp">Tokyo Ghoul</a></h4>
+					</div>
+				</div>
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+ -->
+
+			<!-- 
+
+			<h1 id="titulo_datos">Información personal de los integrantes</h1>
+			<div class="Info_Brayan">
+				<p>Nombre: Brayan Alexis Perez</p>
+				<p>Edad: 22</p>
+				<p>Lugar de Nacimiento: Popayán-Cauca</p>
+
+			</div>
+			<div class="Info_Andy">
+				<p>Nombre: Andy Alexander Villaquira</p>
+				<p>Edad: 22</p>
+				<p>Lugar de Nacimiento: Santa Rosa-Cauca</p>
+
+			</div>
+			<div class="Info_Juanpa">
+				<p>Nombre: Juan Sebastian Parra Reyes</p>
+				<p>Edad: 23</p>
+				<p>Lugar de Nacimiento: Bogota-Cundinamarca</p>
+
+			</div>
+			<div class="Info_Yurani">
+				<p>Nombre: Yurani Guevara</p>
+				<p>Edad: 26</p>
+				<p>Lugar de Nacimiento: Popayán-Cauca</p>
+
+			</div>
+			<div class="Info_Bladimir">
+				<p>Nombre: Bladimir Astudillo Pérez</p>
+				<p>Edad: 24</p>
+				<p>Lugar de Nacimiento: Belalcazar-Cauca</p>
+
+			</div> -->
+		</div>
+
+		<div id="pie">
+			<p>Creado por: Tribu - Leones Voraces | contacto: bperezr@unicauca.edu.co</p>
+		</div>
+
+	</div>
+
+</body>
+
+</html>
