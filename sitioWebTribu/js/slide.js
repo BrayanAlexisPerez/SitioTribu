@@ -27,3 +27,12 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   dots[slideIndex - 1].className += " active";
 }
+
+function myFunction()
+{
+    var audio = new Audio('img/presentacion/leon.mp3');
+    audio.play();
+
+       
+}
+
